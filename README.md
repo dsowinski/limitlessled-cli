@@ -1,6 +1,11 @@
 # limitlessled-cli
 Python CLI tool to control LimitlessLED RGBW/WW/CW, RGBW and DualWhite bulbs with iBox Bridge (API v6)
 
+[Benny Wydooghe's work for Domoticz](https://github.com/bwydoogh/domoticz-scripts) has been a huge influence while making this script (thanks!), which is tailored to be a CLI tool for integration with HA-bridge and Amazon Echo (Alexa).
+
+Used http://www.limitlessled.com/dev/ as reference and for examples, to extract UDP codes valid for API v6. Also, since the official API description is not complete, I had to hunt for the info and found it here at: https://github.com/mwittig/node-milight-promise/blob/master/src/commandsV6.js which enabled me to implement DualWhite bulbs support, thanks!
+
+Requires Python 3.
 
 
 # Usage
